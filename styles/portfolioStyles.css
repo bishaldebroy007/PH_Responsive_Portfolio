@@ -282,17 +282,18 @@ textarea {
 
     .skills-container,
     .resume-container,
+    .about-info-container,
     footer {
-        /* display: flex; */
         flex-direction: column;
-        gap: 24px;
+        gap: 20px;
     }
 
     #what-i-do-description {
         padding: 3px;
     }
 
-    footer {
+    footer,
+    .about {
         padding: 5px;
     }
 
@@ -305,4 +306,5 @@ textarea {
     textarea {
         width: 80%;
     }
+
 }
