@@ -1,0 +1,288 @@
+/* Common shared Text styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'open sans', sans-serif;
+}
+
+/* Nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.red-color {
+    /* text primary*/
+    color: red;
+}
+
+.primary-button {
+    color: white;
+    background: brown;
+    border-radius: 15px;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+    gap: 20px;
+}
+
+.primary-button:hover {
+    background: red;
+    /* Shadow on hover */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+}
+
+.nav-title {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Header style */
+.header-class {
+    background-color: #fff8f3;
+
+}
+
+.banner {
+    /* background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right; */
+
+
+    padding: 20px 20px 20px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 450px;
+}
+
+.banner-greetings {
+    font-size: 35px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 25px;
+    color: #474747;
+}
+
+/* Main Section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 35px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* Skill section */
+
+#what-i-do-description {
+    padding: 30px 150px
+}
+
+.skills-container {
+    display: flex;
+    /* justify-content: space-between; */
+
+    gap: 24px;
+}
+
+.skills {
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #474747;
+}
+
+/* Resume section */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 300px;
+    margin: 30px 60px 30px 40px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575
+}
+
+.resume-container hr {
+    margin: 10px 0 10px 0;
+}
+
+.download-cv {
+    margin: 100px;
+    text-align: center;
+}
+
+/* Footer Style */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+
+.footer-column {
+    width: 50%;
+    gap: 100px;
+}
+
+#footer-description {
+    text-align: left;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.social-links a:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    border: none;
+    padding: 18px 35px;
+    color: #757575;
+    background: #FFF;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#submit-button {
+    color: white;
+    background: brown;
+    border-radius: 15px;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+#submit-button:hover {
+    background: red;
+    /* Shadow on hover */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Copyright section */
+/* #copyright {
+    text-align: center;
+    padding: 20px;
+    background: #FFF8F3;
+    color: #757575;
+} */
+
+/* Hidden sections */
+.hide {
+    display: none;
+}
+
+/* Responsive styles */
+/* For Smaller devices */
+@media screen and (max-width:576px) {
+    .skills-container {
+        /* display: flex; */
+        flex-direction: column;
+
+        gap: 24px;
+    }
+}
