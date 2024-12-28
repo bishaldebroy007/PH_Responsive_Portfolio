@@ -279,7 +279,9 @@ textarea {
 /* Responsive styles */
 /* For Smaller devices */
 @media screen and (max-width:576px) {
-    .skills-container {
+
+    .skills-container,
+    .resume-container {
         /* display: flex; */
         flex-direction: column;
         gap: 24px;
