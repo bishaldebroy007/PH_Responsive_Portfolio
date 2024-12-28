@@ -281,13 +281,28 @@ textarea {
 @media screen and (max-width:576px) {
 
     .skills-container,
-    .resume-container {
+    .resume-container,
+    footer {
         /* display: flex; */
         flex-direction: column;
         gap: 24px;
+    }
 
-        #what-i-do-description {
-            padding: 3px;
-        }
+    #what-i-do-description {
+        padding: 3px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 80%;
     }
 }
