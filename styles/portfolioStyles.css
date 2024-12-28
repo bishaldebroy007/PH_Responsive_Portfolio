@@ -280,14 +280,17 @@ textarea {
 /* For Smaller devices */
 @media screen and (max-width:576px) {
 
+
     .skills-container,
     .resume-container,
     .about-info-container,
-    footer {
+    footer,
+    nav {
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
 
+    .banner,
     #what-i-do-description {
         padding: 3px;
     }
@@ -307,4 +310,22 @@ textarea {
         width: 80%;
     }
 
+    .banner .profile-pic {
+        width: 60%;
+        padding: 10px
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px;
+        padding: 10px;
+        align-content: center;
+    }
+
+    .banner .primary-button {
+        margin: 5px;
+    }
 }
